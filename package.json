@@ -1,0 +1,28 @@
+{
+  "name": "actas-app",
+  "version": "1.0.0",
+  "description": "Generador de Actas de Convivencia con IA - Ciudad Educadora Espíritu Santo",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/db/seed.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@libsql/client": "^0.17.4",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.6",
+    "docx": "^9.7.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "firebase-admin": "^14.0.0",
+    "pdf-parse": "^2.4.5",
+    "pdf2json": "^4.0.3",
+    "xlsx": "^0.18.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
