@@ -5,3 +5,4 @@ data/
 *.zip
 *.xls
 *.pdf
+firebase-key.json
